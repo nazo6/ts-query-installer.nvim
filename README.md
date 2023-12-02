@@ -3,8 +3,8 @@
 Plugin to install external treesitter query that is not included in
 nvim-treesitter.
 
-Be aware that external "scanner" can be installed by nvim-treesitter itself.
-This plugin is for external "query".
+Be aware that external "parser" can be installed by nvim-treesitter itself. This
+plugin is for external "query".
 
 # Installation
 
