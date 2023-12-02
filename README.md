@@ -29,6 +29,19 @@ Using lazy.nvim :
 }
 ```
 
+and specify as dependency of `nvim-treesitter`
+
+```lua
+{
+  "nvim-treesitter/nvim-treesitter",
+  ...
+  dependencies = {
+    ...
+    { "ts-query-installer.nvim" },
+  },
+}
+```
+
 # Usage
 
 ## Install query
